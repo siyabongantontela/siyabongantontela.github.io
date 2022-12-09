@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100%;
+    background:linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/concert.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+.navbar-brand{
+    width: 60px;
+    margin-top: -20px;
+}
+
+nav.navbar {
+    height: 80px;
+}
+
+.links li a, .icons li a{
+    margin: 1rem;
+}
+
+.navbar .nav-link{
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: roboto thin;
+    padding: 0;
+}
+
+.navbar .nav-link:hover, button[type="button"] a:hover{
+    color: #bed0dbf9;
+    transition: ease-in-out 500ms;
+}
+
+.icons li{
+    margin-right: .75rem;
+}
+
+.fa{
+    color: #fff;
+}
+
+.fa:hover{
+    color: #bed0dbf9;
+    transition: ease-in-out 500ms;
+}
+
+.container div{
+    font-family: roboto light, sans-serif;
+}
+
+.heading-1{
+    display: block;
+    color: #fff;
+    font-size: 5rem;
+    font-family: "Open Sans";
+}
+
+.container .text{
+    color: rgb(159, 184, 239);
+    margin: 1.1rem 0 5rem;
+    font-size: 1.5rem;
+}
+
+button[type="button"]{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+button[type="button"]:first-child{
+    margin-right: .3125rem;
+}
+
+button[type="button"] a{
+    display: block;
+    border-radius: 2rem;
+    border: 2px solid #fff;
+    padding: 1.2rem 2rem;
+}
+
+button[type="button"] a:hover{
+    border-color: #bed0dbf9;
+}
+
+section{
+    padding: 1.5rem;
+}
+
+.paragraphs{
+    margin-top: -8px;
+}
+
+.about-heading, 
+.gallery-heading,
+.events-heading,
+.getintouch-heading{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+
+.gallery-heading,
+.getintouch-heading{
+    color: #fff;
+}
+
+.gallery-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff;
+    padding: 2rem 0;
+    margin-bottom: 3rem;
+}
+
+.gallery-heading,
+.events-heading{
+    margin-bottom: 2rem;
+}
+
+.gallery-img{
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all ease-in-out 1s;
+}
+
+.gallery-img:hover{
+    transform: scale(1.1);
+}
+
+section .section-one{
+    height: 100%;
+    padding: 1.5rem .875rem;
+}
+
+.section-one{
+    margin-bottom: 2rem;
+}
+
+.section-one .paragraphs{
+    font-size: 1.125rem;
+    color: #111;
+    margin-right: 1rem;
+}
+
+.section-two{
+    background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(../img/jazz.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.events{
+    background:linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/concert.jpg);
+    padding-right: 1.3rem;
+    margin-bottom: 2.5rem;
+    color: #fff;
+    max-width: 1200px;
+    height: 500px;
+}
+
+.event-list:last-child{
+    margin-left: 30px;
+}
+
+.event-list{
+    margin-top: 3rem;
+    font-family: roboto thin;
+    font-size: 1.2rem;
+}
+
+.list-item{
+    margin-bottom: 1.5rem;
+    list-style-type: none;
+}
+
+.events-badge{
+    margin-right: 0;
+    margin-bottom: 1rem;
+}
+
+.section-four{
+    background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .9)), url(../img/drummersticks.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 4rem;
+}
+
+.form{
+    width: 600px;
+}
+
+.footer{
+    background-color: rgb(66, 66, 66);
+    padding: 1.75rem 1rem;
+    height: 10rem;
+}
+
+.contact{
+    margin-left: 2rem;
+}
+
+.f-contact-text{
+    font-family: roboto thin; 
+}
+
+#copyright{
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    font-family: roboto thin;
+}
+
+footer .icons{
+    margin-top: -.8125rem;
+}
